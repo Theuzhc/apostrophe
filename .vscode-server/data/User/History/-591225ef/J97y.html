@@ -1,0 +1,92 @@
+{#
+  This is an example home page template. It inherits and extends a layout template
+  that lives in the top-level views/ folder for convenience
+
+{% extends "layout.html" %}
+
+{% block main %}
+  <section class="bp-welcome">
+    <h1 class="bp-welcome__headline">
+      Welcome to Apostrophe 3
+    </h1>
+    {% if not data.user %}
+      {# Message only for logged out users. #}
+      <h3 class="bp-welcome__help">First time spinning up the ApostropheCMS 3 demo?</h3>
+      <p>
+        Use the credentials created during setup with the CLI tool or create a new user with the CLI command:
+      </p>
+      <pre class="bp-welcome__code">
+        <span class="bp-welcome__code__context">Command Line</span>
+        <code>
+          node app @apostrophecms/user:add myUsername admin
+        </code>
+      </pre>
+      <p class="bp-welcome__cta">
+        <a class="bp-button bp-button--cta" href="/login">Then log in here</a>
+      </p>
+    {% endif %}
+    <p>
+      For a guide on how to configure and customize this project, <a href="https://a3.docs.apostrophecms.com/">please check out the Apostrophe 3 documentation</a>.
+    </p>
+    <div class="bp-welcome__area">
+      {% if data.user %}
+        {# Message only for logged in users. #}
+        {% if not data.query['apos-edit'] %}
+          <p>
+            Enter <span class="bp-mode">Edit</span> mode from the admin bar <span style="display:inline-block; transform: rotate(45deg)">👆</span> to begin.
+          </p>
+        {% else %}
+          <p>
+            Add and edit content below in the content area. 👇
+          </p>
+        {% endif %}
+      {% endif %}
+      {% area data.page, 'main' %}
+    </div>
+  </section>
+{% endblock %}
+#}
+
+{% extends "layout.html" %}
+
+{% block main %}
+  <section class="startup-guide-welcome">
+    <h1 class="startup-guide-welcome__headline">
+      Bem-vindo ao Guia de Criação de Startups
+    </h1>
+    {% if not data.user %}
+      {# Mensagem apenas para usuários deslogados. #}
+      <h3 class="startup-guide-welcome__help">Primeira vez criando uma startup?</h3>
+      <p>
+        Utilize as credenciais criadas durante o processo de configuração ou crie um novo usuário com o comando CLI:
+      </p>
+      <pre class="startup-guide-welcome__code">
+        <span class="startup-guide-welcome__code__context">Linha de Comando</span>
+        <code>
+          node app @apostrophecms/user:add myUsername admin
+        </code>
+      </pre>
+      <p class="startup-guide-welcome__cta">
+        <a class="bp-button bp-button--cta" href="/login">Faça login aqui</a>
+      </p>
+    {% endif %}
+    <p>
+      Para começar a jornada de criar sua startup do zero, siga o nosso guia passo a passo. <a href="/startup-guide">Acesse o guia completo aqui</a>.
+    </p>
+    <div class="startup-guide-welcome__area">
+      {% if data.user %}
+        {# Mensagem apenas para usuários logados. #}
+        {% if not data.query['apos-edit'] %}
+          <p>
+            Entre no modo <span class="bp-mode">Edit</span> através da barra de administração <span style="display:inline-block; transform: rotate(45deg)">👆</span> para iniciar a personalização do conteúdo.
+          </p>
+        {% else %}
+          <p>
+            Adicione e edite conteúdo abaixo na área de conteúdo. 👇
+          </p>
+        {% endif %}
+      {% endif %}
+      {% area data.page, 'main' %}
+    </div>
+  </section>
+{% endblock %}

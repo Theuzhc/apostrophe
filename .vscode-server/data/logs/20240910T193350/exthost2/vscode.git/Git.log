@@ -1,0 +1,30 @@
+2024-09-10 19:35:12.311 [info] [main] Log level: Info
+2024-09-10 19:35:12.311 [info] [main] Validating found git in: "git"
+2024-09-10 19:35:12.311 [info] [main] Using git "2.34.1" from "git"
+2024-09-10 19:35:12.311 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-10 19:35:12.311 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-10 19:35:12.311 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:35:12.319 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-10 19:35:12.319 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:35:12.323 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-10 19:35:12.323 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:35:12.326 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-10 19:35:12.326 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:35:12.331 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-10 19:35:12.335 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-10 19:35:12.343 [info] [Model][openRepository] Opened repository: /home/matheus/.nvm
+2024-09-10 19:35:12.351 [info] > git config --get commit.template [3ms]
+2024-09-10 19:35:12.351 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-10 19:35:12.351 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:35:12.357 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-10 19:35:12.357 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:35:12.360 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [7ms]
+2024-09-10 19:35:12.363 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-10 19:35:12.363 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:35:12.367 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-10 19:35:12.389 [info] > git status -z -uall [26ms]
+2024-09-10 19:35:12.412 [info] > git config --get commit.template [3ms]
+2024-09-10 19:35:12.416 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [2ms]
+2024-09-10 19:35:12.421 [info] > git status -z -uall [3ms]
+2024-09-10 19:35:12.889 [info] > git check-ignore -v -z --stdin [0ms]
+2024-09-10 19:35:12.926 [info] > git rev-parse --show-toplevel [1ms]

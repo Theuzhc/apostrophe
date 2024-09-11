@@ -1,0 +1,791 @@
+2024-09-11 18:25:18.826 [info] Extension host with pid 397 started
+2024-09-11 18:25:18.863 [info] Lock '/home/matheus/.vscode-server/data/User/workspaceStorage/11c3ca46bf85bf9f8b4f19a5bf9db383/vscode.lock': Lock acquired.
+2024-09-11 18:25:18.910 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-11 18:25:19.036 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-11 18:25:19.036 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-11 18:25:19.447 [info] Eager extensions activated
+2024-09-11 18:25:19.447 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-11 18:25:19.448 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-11 18:25:19.799 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-11 18:26:13.667 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-09-11 18:34:10.020 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-09-11 18:37:06.721 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-09-11 18:37:11.951 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-11 18:37:11.952 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-11 18:37:11.952 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-09-11 18:42:35.641 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:42:35.658 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:43:57.167 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:44:22.929 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:44:27.188 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:45:28.834 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:45:29.448 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:45:30.248 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:45:30.453 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:45:36.623 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:45:37.630 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:45:41.709 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:45:42.714 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:45:46.803 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:45:47.811 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:45:51.884 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:45:52.893 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:45:56.968 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:45:57.977 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:46:08.093 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:46:09.102 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:46:13.180 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:46:14.184 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:46:18.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5844
+2024-09-11 18:46:19.736 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:46:27.752 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:46:28.756 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:46:32.832 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:46:33.836 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:46:38.605 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:46:39.844 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:46:40.849 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:46:44.932 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:46:45.937 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:02.999 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:47:04.003 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:11.583 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:47:12.593 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:16.668 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:47:17.673 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:21.755 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:47:22.762 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:26.841 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:47:27.846 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:31.939 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:47:32.947 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:37.800 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:47:38.805 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:42.888 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:47:43.896 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:47.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:47:48.998 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:53.086 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:47:54.093 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:54.493 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:47:58.186 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:47:59.196 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:48:03.271 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:48:04.281 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:48:08.368 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5845
+2024-09-11 18:48:09.373 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:48:15.921 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:48:16.926 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:48:28.436 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:48:29.443 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:48:33.537 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:48:34.542 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:48:39.179 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:48:40.185 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:48:44.265 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:48:45.270 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:48:49.358 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:48:50.365 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:48:54.448 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:48:55.452 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:48:59.546 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:49:00.551 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:49:22.373 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:49:23.381 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:49:27.467 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:49:28.471 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:49:32.558 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:49:33.563 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:49:39.203 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:49:40.207 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:49:46.201 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:49:47.205 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:49:51.296 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:49:52.299 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:49:52.925 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:49:53.930 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:49:56.497 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:49:57.503 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:50:01.591 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:50:02.596 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:51:20.406 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:51:21.414 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:52:39.661 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:52:40.671 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:52:44.746 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:52:45.754 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:52:49.838 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5846
+2024-09-11 18:52:50.844 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:52:56.639 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5883
+2024-09-11 18:52:57.645 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:02.645 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5883
+2024-09-11 18:53:03.648 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:07.727 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5883
+2024-09-11 18:53:08.730 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:10.786 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:53:11.790 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:12.815 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:53:13.821 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:18.170 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:53:19.174 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:27.023 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:53:28.032 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:32.372 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:53:33.382 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:37.736 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:53:38.740 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:43.196 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:53:44.202 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:48.069 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:53:48.884 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5883
+2024-09-11 18:53:49.283 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:49.888 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:52.798 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:53:53.803 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:53.965 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:53:54.969 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:53:59.069 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:54:00.072 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:54:50.783 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:54:51.790 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:54:56.144 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:54:57.156 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:55:01.575 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:55:02.580 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:55:06.927 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:55:07.931 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:55:12.830 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:55:13.835 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:55:18.795 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:55:19.799 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:55:24.171 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:55:25.177 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:56:21.170 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5885
+2024-09-11 18:56:22.179 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:56:26.507 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5885
+2024-09-11 18:56:27.517 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:56:31.835 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:56:32.840 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:56:37.698 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:56:38.703 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:56:43.072 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:56:44.078 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:56:48.405 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:56:49.410 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:56:55.244 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:56:56.251 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:57:00.592 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:57:01.597 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:57:05.927 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:57:06.933 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)
+2024-09-11 18:57:11.276 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5884
+2024-09-11 18:57:12.282 [error] Error: No such branch: master.
+	at N.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/matheus/.vscode-server/bin/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/main.js:2:941737)

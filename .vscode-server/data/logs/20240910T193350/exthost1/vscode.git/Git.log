@@ -1,0 +1,9 @@
+2024-09-10 19:33:54.513 [info] [main] Log level: Info
+2024-09-10 19:33:54.513 [info] [main] Validating found git in: "git"
+2024-09-10 19:33:54.513 [info] [main] Using git "2.34.1" from "git"
+2024-09-10 19:33:54.513 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-10 19:33:54.513 [warning] [Model][traverseWorkspaceFolder] Unable to read workspace folder '/home/matheus/apos-app': Error: ENOENT: no such file or directory, scandir '/home/matheus/apos-app'
+2024-09-10 19:33:54.513 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/matheus/apos-app". Error:Error: ENOENT: no such file or directory, realpath '/home/matheus/apos-app'
+2024-09-10 19:33:54.513 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-10 19:33:54.537 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/matheus/apos-app". Error:Error: ENOENT: no such file or directory, realpath '/home/matheus/apos-app'
+2024-09-10 19:33:54.540 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/matheus/apos-app". Error:Error: ENOENT: no such file or directory, realpath '/home/matheus/apos-app'

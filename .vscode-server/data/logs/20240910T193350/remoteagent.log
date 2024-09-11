@@ -1,0 +1,42 @@
+2024-09-10 19:33:50.184 [info] 
+
+
+
+
+2024-09-10 19:33:50.196 [info] Extension host agent started.
+2024-09-10 19:33:52.257 [info] [127.0.0.1][ce250961][ExtensionHostConnection] New connection established.
+2024-09-10 19:33:52.350 [info] [127.0.0.1][070deea4][ManagementConnection] New connection established.
+2024-09-10 19:33:53.520 [info] [127.0.0.1][ce250961][ExtensionHostConnection] <321> Launched Extension Host Process.
+2024-09-10 19:35:06.568 [info] [127.0.0.1][070deea4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-10 19:35:06.615 [info] [127.0.0.1][ce250961][ExtensionHostConnection] <321> Extension Host Process exited with code: 0, signal: null.
+2024-09-10 19:35:08.752 [info] [127.0.0.1][a825b849][ManagementConnection] New connection established.
+2024-09-10 19:35:09.056 [info] [127.0.0.1][de5a6f85][ExtensionHostConnection] New connection established.
+2024-09-10 19:35:09.059 [info] [127.0.0.1][de5a6f85][ExtensionHostConnection] <479> Launched Extension Host Process.
+2024-09-10 19:35:57.246 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2024-09-10 19:35:57.684 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br {"installPreReleaseVersion":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":true,"profileLocation":{"$mid":1,"fsPath":"/home/matheus/.vscode-server/extensions/extensions.json","external":"file:///home/matheus/.vscode-server/extensions/extensions.json","path":"/home/matheus/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-09-10 19:36:01.171 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-pt-br: Success. Executed: true. Duration: 2319ms.
+2024-09-10 19:36:01.277 [info] Extracted extension to file:///home/matheus/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.92.2024081409: ms-ceintl.vscode-language-pack-pt-br
+2024-09-10 19:36:01.289 [info] Renamed to /home/matheus/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.92.2024081409
+2024-09-10 19:36:01.304 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2024-09-10 19:36:01.328 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br file:///home/matheus/.vscode-server/extensions/extensions.json
+2024-09-10 19:36:12.286 [info] [127.0.0.1][a825b849][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-10 19:36:12.404 [info] [127.0.0.1][de5a6f85][ExtensionHostConnection] <479> Extension Host Process exited with code: 0, signal: null.
+2024-09-10 19:36:16.086 [info] [127.0.0.1][77a3abe6][ManagementConnection] New connection established.
+2024-09-10 19:36:16.307 [info] [127.0.0.1][3edd212b][ExtensionHostConnection] New connection established.
+2024-09-10 19:36:16.314 [info] [127.0.0.1][3edd212b][ExtensionHostConnection] <935> Launched Extension Host Process.
+2024-09-10 22:44:43.219 [info] [127.0.0.1][77a3abe6][ManagementConnection] The client has reconnected.
+2024-09-10 22:44:43.707 [info] [127.0.0.1][3edd212b][ExtensionHostConnection] The client has reconnected.
+2024-09-10 22:44:47.073 [info] [127.0.0.1][3edd212b][ExtensionHostConnection] The client has reconnected.
+2024-09-10 22:44:47.499 [info] [127.0.0.1][77a3abe6][ManagementConnection] The client has reconnected.
+2024-09-10 22:46:48.178 [info] [127.0.0.1][3edd212b][ExtensionHostConnection] The client has reconnected.
+2024-09-10 22:46:48.575 [info] [127.0.0.1][77a3abe6][ManagementConnection] The client has reconnected.
+2024-09-10 22:48:40.733 [info] [127.0.0.1][77a3abe6][ManagementConnection] The client has reconnected.
+2024-09-10 22:48:40.837 [info] [127.0.0.1][3edd212b][ExtensionHostConnection] The client has reconnected.
+2024-09-10 22:49:48.137 [info] [127.0.0.1][3edd212b][ExtensionHostConnection] The client has reconnected.
+2024-09-10 22:49:48.371 [info] [127.0.0.1][77a3abe6][ManagementConnection] The client has reconnected.
+2024-09-10 22:49:49.992 [info] [127.0.0.1][77a3abe6][ManagementConnection] The client has reconnected.
+2024-09-10 22:49:50.598 [info] [127.0.0.1][3edd212b][ExtensionHostConnection] The client has reconnected.
+2024-09-10 22:50:53.789 [info] [127.0.0.1][3edd212b][ExtensionHostConnection] The client has reconnected.
+2024-09-10 22:50:53.980 [info] [127.0.0.1][77a3abe6][ManagementConnection] The client has reconnected.
+2024-09-10 22:54:57.315 [info] [127.0.0.1][77a3abe6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-10 22:54:57.427 [info] [127.0.0.1][3edd212b][ExtensionHostConnection] <935> Extension Host Process exited with code: 0, signal: null.

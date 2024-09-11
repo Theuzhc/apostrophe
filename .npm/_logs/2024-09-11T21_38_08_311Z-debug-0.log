@@ -1,0 +1,13 @@
+0 verbose cli /home/matheus/.nvm/versions/node/v18.20.4/bin/node /home/matheus/.nvm/versions/node/v18.20.4/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.4
+3 silly config:load:file:/home/matheus/.nvm/versions/node/v18.20.4/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/matheus/onboarding-project/.npmrc
+5 silly config:load:file:/home/matheus/.npmrc
+6 silly config:load:file:/home/matheus/.nvm/versions/node/v18.20.4/etc/npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:/home/matheus/.npm/_logs/2024-09-11T21_38_08_311Z-
+10 verbose logfile /home/matheus/.npm/_logs/2024-09-11T21_38_08_311Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files

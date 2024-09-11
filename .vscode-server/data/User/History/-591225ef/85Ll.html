@@ -1,0 +1,45 @@
+
+
+{% extends "layout.html" %}
+
+{% block main %}
+  <section class="startup-guide-welcome">
+    <h1 class="startup-guide-welcome__headline">
+      Bem-vindo ao Guia de Criação de Startups
+    </h1>
+    {% if not data.user %}
+      {# Mensagem apenas para usuários deslogados. #}
+      <h3 class="startup-guide-welcome__help">Primeira vez criando uma startup?</h3>
+      <p>
+        Utilize as credenciais criadas durante o processo de configuração ou crie um novo usuário com o comando CLI:
+      </p>
+      <pre class="startup-guide-welcome__code">
+        <span class="startup-guide-welcome__code__context">Linha de Comando</span>
+        <code>
+          node app @apostrophecms/user:add myUsername admin
+        </code>
+      </pre>
+      <p class="startup-guide-welcome__cta">
+        <a class="bp-button bp-button--cta" href="/login">Faça login aqui</a>
+      </p>
+    {% endif %}
+    <p>
+      Para começar a jornada de criar sua startup do zero, siga o nosso guia passo a passo. <a href="/startup-guide">Acesse o guia completo aqui</a>.
+    </p>
+    <div class="startup-guide-welcome__area">
+      {% if data.user %}
+        {# Mensagem apenas para usuários logados. #}
+        {% if not data.query['apos-edit'] %}
+          <p>
+            Entre no modo <span class="bp-mode">Edit</span> através da barra de administração <span style="display:inline-block; transform: rotate(45deg)">👆</span> para iniciar a personalização do conteúdo.
+          </p>
+        {% else %}
+          <p>
+            Adicione e edite conteúdo abaixo na área de conteúdo. 👇
+          </p>
+        {% endif %}
+      {% endif %}
+      {% area data.page, 'main' %}
+    </div>
+  </section>
+{% endblock %}

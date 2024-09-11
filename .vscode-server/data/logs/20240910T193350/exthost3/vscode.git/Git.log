@@ -1,0 +1,174 @@
+2024-09-10 19:36:18.798 [info] [principal] Nível de log: Info
+2024-09-10 19:36:18.798 [info] [principal] Validando o git encontrado em: "git"
+2024-09-10 19:36:18.798 [info] [principal] Usando git "2.34.1" de "git"
+2024-09-10 19:36:18.798 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-10 19:36:18.798 [info] > git rev-parse --show-toplevel [16ms]
+2024-09-10 19:36:18.798 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:36:18.816 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-10 19:36:18.816 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:36:18.823 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-10 19:36:18.823 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:36:18.831 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-10 19:36:18.831 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:36:18.838 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-10 19:36:18.838 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:36:18.859 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-10 19:36:18.865 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-10 19:36:18.900 [info] [Model][openRepository] Opened repository: /home/matheus/.nvm
+2024-09-10 19:36:18.934 [info] > git rev-parse --show-toplevel [10ms]
+2024-09-10 19:36:18.934 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:36:18.935 [info] > git config --get commit.template [14ms]
+2024-09-10 19:36:18.956 [info] > git rev-parse --show-toplevel [12ms]
+2024-09-10 19:36:18.956 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:36:18.960 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [7ms]
+2024-09-10 19:36:19.177 [info] > git status -z -uall [184ms]
+2024-09-10 19:36:19.201 [info] > git rev-parse --show-toplevel [189ms]
+2024-09-10 19:36:19.201 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 19:36:19.206 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-10 19:36:19.208 [info] > git config --get commit.template [8ms]
+2024-09-10 19:36:19.213 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-09-10 19:36:19.220 [info] > git status -z -uall [4ms]
+2024-09-10 19:36:19.437 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-10 19:36:19.727 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-10 20:48:17.893 [info] > git rev-parse --show-toplevel [11ms]
+2024-09-10 20:48:17.894 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-10 20:49:15.214 [info] > git checkout -q -b develop --no-track HEAD [20ms]
+2024-09-10 20:49:15.219 [info] > git config --get commit.template [1ms]
+2024-09-10 20:49:15.223 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [1ms]
+2024-09-10 20:49:15.228 [info] > git status -z -uall [4ms]
+2024-09-10 20:49:15.232 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [1ms]
+2024-09-10 20:49:15.236 [info] > git config --local branch.develop.vscode-merge-base [1ms]
+2024-09-10 20:49:15.236 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-10 20:49:15.243 [info] > git reflog develop --grep-reflog=branch: Created from *. [3ms]
+2024-09-10 20:49:15.246 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to develop [1ms]
+2024-09-10 20:49:15.250 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/179d45050be0a71fd57591b0ed8aedf9b177ba10 refs/remotes/179d45050be0a71fd57591b0ed8aedf9b177ba10 [2ms]
+2024-09-10 20:49:15.250 [warning] [Git][getBranch] No such branch: 179d45050be0a71fd57591b0ed8aedf9b177ba10
+2024-09-10 20:49:15.255 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-10 20:49:15.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [0ms]
+2024-09-10 20:49:15.264 [info] > git config --local branch.develop.vscode-merge-base origin/master [1ms]
+2024-09-10 20:49:15.271 [info] > git config --get commit.template [3ms]
+2024-09-10 20:49:15.271 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [0ms]
+2024-09-10 20:49:15.274 [info] > git status -z -uall [1ms]
+2024-09-10 20:49:15.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [1ms]
+2024-09-10 20:49:15.287 [info] > git merge-base refs/heads/develop refs/remotes/origin/master [1ms]
+2024-09-10 20:49:15.288 [info] > git config --local branch.develop.vscode-merge-base [7ms]
+2024-09-10 20:49:15.291 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-09-10 20:49:15.782 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-10 20:49:16.432 [info] > git config --get commit.template [2ms]
+2024-09-10 20:49:16.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [1ms]
+2024-09-10 20:49:16.436 [info] > git status -z -uall [2ms]
+2024-09-10 20:49:16.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [2ms]
+2024-09-10 20:49:16.443 [info] > git config --local branch.develop.vscode-merge-base [0ms]
+2024-09-10 20:49:16.446 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-09-10 20:49:16.946 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-10 20:49:17.453 [info] > git merge-base refs/heads/develop refs/remotes/origin/master [1ms]
+2024-09-10 20:49:17.510 [info] > git merge-base refs/heads/develop refs/remotes/origin/master [1ms]
+2024-09-10 20:49:42.709 [info] > git push -u origin develop [25265ms]
+2024-09-10 20:49:42.709 [info] remote: Permission to nvm-sh/nvm.git denied to Theuzhc.
+fatal: unable to access 'https://github.com/nvm-sh/nvm.git/': The requested URL returned error: 403
+2024-09-10 20:49:42.823 [info] > git merge-base refs/heads/develop refs/remotes/origin/master [7ms]
+2024-09-10 20:49:42.834 [info] > git merge-base refs/heads/develop refs/remotes/origin/master [1ms]
+2024-09-10 20:49:50.570 [info] > git remote rename origin upstream [30ms]
+2024-09-10 20:49:50.578 [info] > git config --get commit.template [4ms]
+2024-09-10 20:49:50.583 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [6ms]
+2024-09-10 20:49:50.591 [info] > git status -z -uall [4ms]
+2024-09-10 20:49:50.598 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [4ms]
+2024-09-10 20:49:50.602 [info] > git remote add origin https://github.com/Theuzhc/nvm.git [5ms]
+2024-09-10 20:49:50.606 [info] > git config --local branch.develop.vscode-merge-base [5ms]
+2024-09-10 20:49:50.610 [info] > git config --get commit.template [4ms]
+2024-09-10 20:49:50.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-09-10 20:49:50.611 [warning] [Git][getBranch] No such branch: origin/master
+2024-09-10 20:49:50.616 [info] > git reflog develop --grep-reflog=branch: Created from *. [3ms]
+2024-09-10 20:49:50.620 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [5ms]
+2024-09-10 20:49:50.628 [info] > git status -z -uall [0ms]
+2024-09-10 20:49:50.638 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to develop [19ms]
+2024-09-10 20:49:50.644 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [11ms]
+2024-09-10 20:49:50.652 [info] > git config --local branch.develop.vscode-merge-base [4ms]
+2024-09-10 20:49:50.657 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/179d45050be0a71fd57591b0ed8aedf9b177ba10 refs/remotes/179d45050be0a71fd57591b0ed8aedf9b177ba10 [14ms]
+2024-09-10 20:49:50.657 [warning] [Git][getBranch] No such branch: 179d45050be0a71fd57591b0ed8aedf9b177ba10
+2024-09-10 20:49:50.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [4ms]
+2024-09-10 20:49:50.661 [warning] [Git][getBranch] No such branch: origin/master
+2024-09-10 20:49:50.666 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2024-09-10 20:49:50.666 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-10 20:49:50.666 [info] > git reflog develop --grep-reflog=branch: Created from *. [1ms]
+2024-09-10 20:49:50.669 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to develop [1ms]
+2024-09-10 20:49:50.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/179d45050be0a71fd57591b0ed8aedf9b177ba10 refs/remotes/179d45050be0a71fd57591b0ed8aedf9b177ba10 [2ms]
+2024-09-10 20:49:50.675 [warning] [Git][getBranch] No such branch: 179d45050be0a71fd57591b0ed8aedf9b177ba10
+2024-09-10 20:49:50.678 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n32 --max-parents=0 --topo-order --decorate=full HEAD [4ms]
+2024-09-10 20:49:50.679 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-10 20:49:50.679 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-10 20:49:50.684 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 179d45050be0a71fd57591b0ed8aedf9b177ba10.. --topo-order --decorate=full refs/heads/develop [1ms]
+2024-09-10 20:49:50.687 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 179d45050be0a71fd57591b0ed8aedf9b177ba10 [5ms]
+2024-09-10 20:49:51.139 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-10 20:49:51.311 [info] > git fetch origin develop [673ms]
+2024-09-10 20:49:51.311 [info] fatal: couldn't find remote ref develop
+2024-09-10 20:49:51.314 [info] > git config --get commit.template [0ms]
+2024-09-10 20:49:51.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [1ms]
+2024-09-10 20:49:51.320 [info] > git status -z -uall [2ms]
+2024-09-10 20:49:51.324 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [2ms]
+2024-09-10 20:49:51.326 [info] > git config --local branch.develop.vscode-merge-base [0ms]
+2024-09-10 20:49:51.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-09-10 20:49:51.330 [warning] [Git][getBranch] No such branch: origin/master
+2024-09-10 20:49:51.333 [info] > git reflog develop --grep-reflog=branch: Created from *. [1ms]
+2024-09-10 20:49:51.336 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to develop [1ms]
+2024-09-10 20:49:51.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/179d45050be0a71fd57591b0ed8aedf9b177ba10 refs/remotes/179d45050be0a71fd57591b0ed8aedf9b177ba10 [1ms]
+2024-09-10 20:49:51.338 [warning] [Git][getBranch] No such branch: 179d45050be0a71fd57591b0ed8aedf9b177ba10
+2024-09-10 20:49:51.341 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-10 20:49:51.341 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-10 20:49:51.824 [info] > git rev-parse --show-toplevel [0ms]
+2024-09-10 20:49:52.743 [info] > git push -u origin develop [1420ms]
+2024-09-10 20:49:52.743 [info] remote: 
+remote: Create a pull request for 'develop' on GitHub by visiting:        
+remote:      https://github.com/Theuzhc/nvm/pull/new/develop        
+remote: 
+To https://github.com/Theuzhc/nvm.git
+ * [new branch]      develop -> develop
+2024-09-10 20:49:52.748 [info] > git config --get commit.template [2ms]
+2024-09-10 20:49:52.748 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [1ms]
+2024-09-10 20:49:52.753 [info] > git status -z -uall [2ms]
+2024-09-10 20:49:52.762 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [7ms]
+2024-09-10 20:49:52.764 [info] > git config --get commit.template [3ms]
+2024-09-10 20:49:52.765 [info] > git config --local branch.develop.vscode-merge-base [1ms]
+2024-09-10 20:49:52.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-09-10 20:49:52.769 [warning] [Git][getBranch] No such branch: origin/master
+2024-09-10 20:49:52.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [3ms]
+2024-09-10 20:49:52.771 [info] > git reflog develop --grep-reflog=branch: Created from *. [1ms]
+2024-09-10 20:49:52.776 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to develop [3ms]
+2024-09-10 20:49:52.778 [info] > git status -z -uall [3ms]
+2024-09-10 20:49:52.783 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [2ms]
+2024-09-10 20:49:52.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/179d45050be0a71fd57591b0ed8aedf9b177ba10 refs/remotes/179d45050be0a71fd57591b0ed8aedf9b177ba10 [8ms]
+2024-09-10 20:49:52.787 [warning] [Git][getBranch] No such branch: 179d45050be0a71fd57591b0ed8aedf9b177ba10
+2024-09-10 20:49:52.791 [info] > git config --local branch.develop.vscode-merge-base [5ms]
+2024-09-10 20:49:52.794 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2024-09-10 20:49:52.794 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-10 20:49:52.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [4ms]
+2024-09-10 20:49:52.797 [warning] [Git][getBranch] No such branch: origin/master
+2024-09-10 20:49:52.804 [info] > git merge-base refs/heads/develop refs/remotes/origin/develop [7ms]
+2024-09-10 20:49:52.807 [info] > git merge-base refs/heads/develop refs/remotes/origin/develop [4ms]
+2024-09-10 20:49:52.808 [info] > git reflog develop --grep-reflog=branch: Created from *. [7ms]
+2024-09-10 20:49:52.810 [info] > git rev-list --count --left-right refs/heads/develop...refs/remotes/origin/develop [4ms]
+2024-09-10 20:49:52.816 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to develop [7ms]
+2024-09-10 20:49:52.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/179d45050be0a71fd57591b0ed8aedf9b177ba10 refs/remotes/179d45050be0a71fd57591b0ed8aedf9b177ba10 [0ms]
+2024-09-10 20:49:52.819 [warning] [Git][getBranch] No such branch: 179d45050be0a71fd57591b0ed8aedf9b177ba10
+2024-09-10 20:49:52.821 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 179d45050be0a71fd57591b0ed8aedf9b177ba10.. --topo-order --decorate=full refs/heads/develop refs/remotes/origin/develop [6ms]
+2024-09-10 20:49:52.822 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 179d45050be0a71fd57591b0ed8aedf9b177ba10 [8ms]
+2024-09-10 20:49:52.822 [info] > git diff --name-status -z --diff-filter=ADMR 179d45050be0a71fd57591b0ed8aedf9b177ba10...refs/remotes/origin/develop [10ms]
+2024-09-10 20:49:52.824 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-10 20:49:52.825 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-10 20:49:53.284 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-10 20:49:53.893 [info] > git config --get commit.template [1ms]
+2024-09-10 20:49:53.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [1ms]
+2024-09-10 20:49:53.902 [info] > git status -z -uall [2ms]
+2024-09-10 20:49:53.905 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/develop refs/remotes/develop [1ms]
+2024-09-10 20:49:53.907 [info] > git config --local branch.develop.vscode-merge-base [1ms]
+2024-09-10 20:49:53.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-09-10 20:49:53.911 [warning] [Git][getBranch] No such branch: origin/master
+2024-09-10 20:49:53.914 [info] > git reflog develop --grep-reflog=branch: Created from *. [1ms]
+2024-09-10 20:49:53.917 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to develop [1ms]
+2024-09-10 20:49:53.919 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/179d45050be0a71fd57591b0ed8aedf9b177ba10 refs/remotes/179d45050be0a71fd57591b0ed8aedf9b177ba10 [0ms]
+2024-09-10 20:49:53.919 [warning] [Git][getBranch] No such branch: 179d45050be0a71fd57591b0ed8aedf9b177ba10
+2024-09-10 20:49:53.922 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-10 20:49:53.922 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-10 20:49:54.408 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-10 22:54:29.719 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-10 22:54:29.720 [info] fatal: not a git repository (or any of the parent directories): .git

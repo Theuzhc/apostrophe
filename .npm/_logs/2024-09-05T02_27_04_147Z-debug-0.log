@@ -1,0 +1,26 @@
+0 verbose cli /home/matheus/.nvm/versions/node/v18.20.4/bin/node /home/matheus/.nvm/versions/node/v18.20.4/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.4
+3 silly config:load:file:/home/matheus/.nvm/versions/node/v18.20.4/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/matheus/.npmrc
+5 silly config:load:file:/home/matheus/.nvm/versions/node/v18.20.4/etc/npmrc
+6 verbose title npm run dev
+7 verbose argv "run" "dev"
+8 verbose logfile logs-max:10 dir:/home/matheus/.npm/_logs/2024-09-05T02_27_04_147Z-
+9 verbose logfile /home/matheus/.npm/_logs/2024-09-05T02_27_04_147Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open '/home/matheus/package.json'
+12 verbose cwd /home/matheus
+13 verbose Linux 5.10.16.3-microsoft-standard-WSL2
+14 verbose node v18.20.4
+15 verbose npm  v10.7.0
+16 error code ENOENT
+17 error syscall open
+18 error path /home/matheus/package.json
+19 error errno -2
+20 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/matheus/package.json'
+21 error enoent This is related to npm not being able to find a file.
+21 error enoent
+22 verbose exit -2
+23 verbose code -2
+24 error A complete log of this run can be found in: /home/matheus/.npm/_logs/2024-09-05T02_27_04_147Z-debug-0.log

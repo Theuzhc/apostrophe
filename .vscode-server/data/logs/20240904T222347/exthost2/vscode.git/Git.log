@@ -1,0 +1,28 @@
+2024-09-04 22:24:02.610 [info] [main] Log level: Info
+2024-09-04 22:24:02.610 [info] [main] Validating found git in: "git"
+2024-09-04 22:24:02.610 [info] [main] Using git "2.34.1" from "git"
+2024-09-04 22:24:02.610 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-04 22:24:02.610 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-04 22:24:02.610 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-04 22:24:02.611 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-04 22:24:02.611 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-04 22:24:02.614 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-04 22:24:02.614 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-04 22:24:02.617 [info] > git rev-parse --show-toplevel [0ms]
+2024-09-04 22:24:02.617 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-04 22:24:02.619 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-04 22:24:02.619 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-04 22:24:02.621 [info] > git rev-parse --show-toplevel [0ms]
+2024-09-04 22:24:02.621 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-04 22:24:02.622 [info] > git rev-parse --show-toplevel [0ms]
+2024-09-04 22:24:02.622 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-04 22:24:02.624 [info] > git rev-parse --show-toplevel [0ms]
+2024-09-04 22:24:02.624 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-04 22:24:02.627 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-04 22:38:07.488 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/matheus/apos-app/". Error:Error: ENOENT: no such file or directory, realpath '/home/matheus/apos-app/'
+2024-09-04 23:22:40.846 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-04 23:22:40.847 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-04 23:23:00.480 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-04 23:23:00.480 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-04 23:23:20.302 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-04 23:23:20.302 [info] fatal: not a git repository (or any of the parent directories): .git

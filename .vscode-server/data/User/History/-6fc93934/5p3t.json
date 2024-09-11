@@ -1,0 +1,30 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "gitlens.blame.format": "${message|50?} ${agoOrDate|14-}${author}",
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "php.validate.executablePath": "",
+  "terminal.integrated.fontFamily": "monospace",
+  "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.stickyScroll.enabled": false
+}
